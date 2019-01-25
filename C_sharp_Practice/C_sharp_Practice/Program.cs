@@ -21,7 +21,7 @@ namespace C_sharp_Practice
             //insert node b/4 2nd node. So right after the first one
 
             LinkedListNode<string> node = linked.Find("pet");
-            linked.AddAfter(node, "dumb-fuck"); // finds node pet, then adds it AFTER it
+            linked.AddAfter(node, "inserted"); // finds node pet, then adds it AFTER it
 
             foreach(var value in linked)
             {
